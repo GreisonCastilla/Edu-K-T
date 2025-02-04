@@ -60,8 +60,48 @@
     "name": "6° - Sexto",
     "state": false,
     "director": {
-      "name": "Julio Salcedo",
-      "tel": 3207152725
+      "name": "Mariano Ochoa",
+      "tel": 3014649618
+    },
+    "courses": [
+      {
+        "name": "Castellano",
+        "teacher": "Julian Casablanca",
+        "activities": [],
+        "average": 4.2
+      },
+      {
+        "name": "Educación física",
+        "teacher": "Antonio Madero",
+        "activities": [],
+        "average": 3.5
+      },
+      {
+        "name": "Sociales",
+        "teacher": "Marlene Torres",
+        "activities": [],
+        "average": 3.0
+      },
+      {
+        "name": "Física",
+        "teacher": "Oscar Montero",
+        "activities": [],
+        "average": 4.3
+      },
+      {
+        "name": "Quimica",
+        "teacher": "Oscar Montero",
+        "activities": [],
+        "average": 4.1
+      }
+    ]
+  },
+  {
+    "name": "5° - Quinto",
+    "state": false,
+    "director": {
+      "name": "Rosario Belanova",
+      "tel": 3142332435
     },
     "courses": [
       {

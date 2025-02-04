@@ -9,7 +9,8 @@
 <template>
     <div class="m-2">
         <p class="text-2xl mb-2">
-           <b>{{ grade.name}}({{ grade.state }})</b> 
+           <b v-if="grade.state">{{ grade.name}} (En curso)</b>
+           <b v-else>{{ grade.name}} (Finalizado)</b>
         </p>
         <p class="text-base ">
            <b>Director de grupo: </b> {{ grade.director.name }}

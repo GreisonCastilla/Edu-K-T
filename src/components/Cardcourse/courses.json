@@ -1,0 +1,46 @@
+[
+  
+    {
+      "name": "Castellano",
+      "teacher": "Julian Casablanca",
+      "activities": [
+        "activity 1",
+        "activity 2",
+        "activity 2",
+        "activity 2",
+        "activity 2"
+      ],
+      "average": 4.2
+    },
+    {
+      "name": "Educación física",
+      "teacher": "Antonio Madero",
+      "activities": [
+        "activity 1",
+        "activity 2"
+      ],
+      "average": 3.5
+    },
+    {
+      "name": "Sociales",
+      "teacher": "Marlene Torres",
+      "activities": [
+        "activity 1"
+      ],
+      "average": 2.3
+    },
+    {
+      "name": "Física",
+      "teacher": "Oscar Montero",
+      "activities": [
+      ],
+      "average": 4.3
+    },
+    {
+      "name": "Quimica",
+      "teacher": "Oscar Montero",
+      "activities": [
+      ],
+      "average": 4.1
+    }
+]

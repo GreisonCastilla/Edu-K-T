@@ -2,7 +2,7 @@
 
     import CardCourse from './components/Cardcourse/CardCourse.vue';
     import Indicator from './components/Indicator.vue';
-    import data from './components/Cardcourse/courses.json'
+    import data from './courses.json'
     import Title from './components/Title.vue';
     import SideBar from './components/SideBar.vue';
     import Hero from './components/Hero.vue';

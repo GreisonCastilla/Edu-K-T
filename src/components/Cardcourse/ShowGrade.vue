@@ -9,7 +9,12 @@
 <template>
 
     <div class="average select-none">
-        <div v-if="average>=4.0" class="grade h-6 w-14 bg-green-400 rounded-lg text-center">
+
+        <div v-if="average==null">
+            <b class="text-sm">no hay calificaciones</b>
+        </div>
+
+        <div v-else-if="average>=4.0" class="grade h-6 w-14 bg-green-400 rounded-lg text-center">
         <p class="text-white h-6 text-sm pt-0.5 mt-1">{{average}}/5</p>
         </div>
 

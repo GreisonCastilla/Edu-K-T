@@ -1,11 +1,10 @@
 <script setup>
 
-import ShowGrade from './ShowGrade.vue';
+  import ShowGrade from './ShowGrade.vue';
 
-
-defineProps({
-  course: Object,
-})
+  defineProps({
+    course: Object,
+  })
 
 </script>
 

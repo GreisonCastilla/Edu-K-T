@@ -1,15 +1,9 @@
 <script setup>
-    import {ref} from 'vue'
     import { showSideBar } from '../composables/useSideBar';
-    import options from "./options.json"
     import SesionInfo from './SesionInfo.vue';
-    let nombre = "Greison Rey Castilla Carmona"
 
-    let selected = ref(options[0])
     import { actualGrade } from '../composables/useGrades';
-    import data from "../components/Cardcourse/courses.json"
-
-    console.log(data[0].name)
+    import data from "../courses.json"
 
 </script>
 
@@ -42,4 +36,15 @@
         
         
     </div>
+
+    <div class="sidebar transform flex flex-col -translate-x-full
+     bg-transparent relative min-w-44 transition 
+     duration-500 ease-in-out text-black z-20 min-h-full md:hidden"
+     
+     :class="{'absolute translate-x-0 duration-500 ease-in-out z-20 md:hidden':showSideBar}"
+     @click="showSideBar=!showSideBar"
+     >
+
+    </div>
+
 </template>

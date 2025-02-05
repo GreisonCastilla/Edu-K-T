@@ -1,7 +1,6 @@
 <script setup>
     import { showSideBar } from '../composables/useSideBar';
     import SesionInfo from './SesionInfo.vue';
-    let name="Greison Rey Castilla Carmona"
 
 </script>
 

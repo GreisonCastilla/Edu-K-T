@@ -1,3 +1,10 @@
+<script setup>
+
+    import SignOut from './SignOut.vue';
+    let name = "Greison Rey Castilla Carmona"
+
+</script>
+
 <template>
     <div class=" text-center pt-4 pb-1 w-full flex-col lg:w-fit lg:pr-2 lg:flex-row items-center ">
         
@@ -19,10 +26,5 @@
     </div>
 </template>
 
-<script setup>
 
-    import SignOut from './SignOut.vue';
-    let name = "Greison Rey Castilla Carmona"
-
-</script>
 

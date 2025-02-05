@@ -38,7 +38,7 @@
     </div>
 
     <div v-if="showSideBar" class="sidebar transform  -translate-x-full
-     bg-black relative w-3/4 transition 
+     bg-transparent relative w-3/4 transition 
      duration-500 ease-in-out  text-black z-20 min-h-full"
      
      :class="{'absolute flex translate-x-0 duration-500 ease-in-out z-20 md:hidden':showSideBar}"

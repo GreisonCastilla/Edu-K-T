@@ -6,12 +6,18 @@
     course: Object,
   })
 
+  function redirecction(){
+    window.alert("algo")
+  }
+
+  function redirecctionActivity(){
+    window.alert("actividad")
+  }
 </script>
 
 <template>
 
-  <a href="/">
-    <div class="relative m-3 ease-in-out hover:scale-110 duration-500 max-w-80 min-h-40 hover:transition-all">
+  <div @click="redirecction" class="relative m-3 ease-in-out hover:scale-110 duration-500 max-w-80 min-h-40 hover:transition-all z-10">
     <div class="shadow absolute -inset-0 bg-black blur opacity-30 rounded-lg">
 
     </div>
@@ -22,16 +28,16 @@
         <p class="text-sm">{{course.teacher}}</p>
       </div>
 
-      <div class="activities min-h-16 mt-2 ml-2 bg-white grow">
+      <div class="activities min-h-16 mt-2 ml-2 bg-white grow z-11">
         <div v-if="course.activities.length>2"  class="flex-col ">
-          <p  class="text-blue-700 text-sm " v-for="activity in 2" :key="activity">
+          <p @click.stop.prevent="redirecctionActivity" class="text-blue-700 text-sm hover:translate-x-3 transition ease-in-out duration-300 " v-for="activity in 2" :key="activity">
           {{ course.activities[activity-1] }}
           </p>
-          <p class="text-blue-700 text-sm ">mas...</p>
+          <p @click.stop.prevent="redirecction" class="text-blue-700 text-sm hover:translate-x-3 transition ease-in-out duration-300">mas...</p>
         </div>
 
         <div v-else-if="course.activities.length>=1">
-          <p  class="text-blue-700 text-sm " v-for="activity in course.activities" :key="activity">
+          <p @click.stop.prevent="redirecctionActivity" class="text-blue-700 text-sm hover:translate-x-3 transition ease-in-out duration-300" v-for="activity in course.activities" :key="activity">
           {{ activity }}
           </p>
         </div>
@@ -51,8 +57,5 @@
 
   </div>
 
-  </a>
-
-  
-
 </template>
+

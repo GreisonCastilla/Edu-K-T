@@ -6,7 +6,7 @@
 
 <template>
 
-    <div class="min-h-24 bg-slate-600 flex items-center p-5">
+    <div class="min-h-24 z-10 bg-slate-600 flex items-center p-5">
 
         <div class="flex grow">
 

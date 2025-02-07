@@ -51,8 +51,14 @@
       {
         "name": "Metalurgia",
         "teacher": "Arturo Rebolledo",
-        "activities": [],
+        "activities": ["Angulo a 45°"],
         "average": 4.1
+      },
+      {
+        "name": "Corte y confección",
+        "teacher": "Myriam Centella",
+        "activities": ["activity 1"],
+        "average": 3.9
       }
     ]
   },

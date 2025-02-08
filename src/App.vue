@@ -5,6 +5,7 @@
     import SideBar from './components/SideBar.vue';
     import Hero from './components/Hero.vue';
     import HeaderMain from './components/HeaderMain.vue';
+    import FloatButton from './components/FloatButton.vue';
 
     import { actualGrade } from './composables/useGrades';
     import { showSideBar } from './composables/useSideBar';
@@ -30,10 +31,10 @@
                     <CardCourse :course="course" v-for="course in data[actualGrade].courses" :key="course">
                     </CardCourse>
                 </div>
-
+                <FloatButton></FloatButton>
             </div>
 
-
+            
         </div>
 
     </div>

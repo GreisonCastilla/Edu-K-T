@@ -30,14 +30,16 @@
 
       <div class="activities min-h-16 mt-2 ml-2 bg-white grow z-11">
         <div v-if="course.activities.length>2"  class="flex-col ">
-          <p @click.stop.prevent="redirecctionActivity" class="text-blue-700 text-sm hover:translate-x-3 transition ease-in-out duration-300 " v-for="activity in 2" :key="activity">
+          <p @click.stop.prevent="redirecctionActivity" class="truncate text-blue-700 text-sm hover:translate-x-3 transition ease-in-out duration-300 " 
+          v-for="activity in 2" :key="activity">
           {{ course.activities[activity-1] }}
           </p>
           <p @click.stop.prevent="redirecction" class="text-blue-700 text-sm hover:translate-x-3 transition ease-in-out duration-300">mas...</p>
         </div>
 
         <div v-else-if="course.activities.length>=1">
-          <p @click.stop.prevent="redirecctionActivity" class="text-blue-700 text-sm hover:translate-x-3 transition ease-in-out duration-300" v-for="activity in course.activities" :key="activity">
+          <p @click.stop.prevent="redirecctionActivity" class="truncate text-blue-700 text-sm hover:translate-x-3 transition ease-in-out duration-300" 
+          v-for="activity in course.activities" :key="activity">
           {{ activity }}
           </p>
         </div>

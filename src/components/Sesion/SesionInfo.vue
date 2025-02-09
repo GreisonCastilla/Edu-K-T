@@ -1,8 +1,6 @@
 <script setup>
-
     import SignOut from './SignOut.vue';
     let name = "Greison Rey Castilla Carmona"
-
 </script>
 
 <template>

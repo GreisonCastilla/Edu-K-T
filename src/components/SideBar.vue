@@ -1,6 +1,6 @@
 <script setup>
     import { showSideBar } from '../composables/useSideBar';
-    import SesionInfo from './SesionInfo.vue';
+    import SesionInfo from './Sesion/SesionInfo.vue';
 
     import { actualGrade } from '../composables/useGrades';
     import data from "../courses.json"

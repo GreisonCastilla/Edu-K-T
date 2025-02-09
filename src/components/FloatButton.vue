@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class=" cursor-pointer fixed z-10 bottom-3 left-auto p-3 rounded-xl bg-gray-700 hover:bg-white group transition-all duration-500 ease-in-out hover:border-2 hover:border-gray-700">
+    <div class=" cursor-pointer border-2 border-gray-700 fixed z-10 bottom-3 left-auto p-3 rounded-xl bg-gray-700 hover:bg-white group transition-all duration-500 ease-in-out hover:border-2 hover:border-gray-700">
 
     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" class="fill-white group-hover:fill-gray-700" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g>
         <path d="M472,60h-8V44c0-13.234-10.766-24-24-24s-24,10.766-24,24v16H96V44c0-13.234-10.766-24-24-24S48,30.766,48,44v16h-8 C17.944,60,0,77.944,0,100v352c0,22.056,17.944,40,40,40h432c22.056,0,40-17.944,40-40V100C512,77.944,494.056,60,472,60z M432,44 c0-4.411,3.589-8,8-8s8,3.589,8,8v23.981c0,0.007-0.001,0.013-0.001,0.019S448,68.013,448,68.019V92c0,4.411-3.589,8-8,8 s-8-3.589-8-8V44z M72,36c4.411,0,8,3.589,8,8v48c0,4.411-3.589,8-8,8s-8-3.589-8-8V68.01c0-0.003,0-0.007,0-0.01s0-0.006,0-0.01 V44C64,39.589,67.589,36,72,36z M472,476H40c-13.234,0-24-10.766-24-24V148h384c4.418,0,8-3.582,8-8s-3.582-8-8-8H16v-32 c0-13.234,10.766-24,24-24h8v16c0,13.234,10.766,24,24,24s24-10.766,24-24V76h320v16c0,13.234,10.766,24,24,24s24-10.766,24-24V76 h8c13.234,0,24,10.766,24,24v32h-16c-4.418,0-8,3.582-8,8s3.582,8,8,8h16v304C496,465.234,485.234,476,472,476z"/>

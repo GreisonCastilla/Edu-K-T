@@ -9,7 +9,7 @@
     >{{ id }}</label>
 
     <input
-      class="border-b-2 border-gray-500 focus:border-blue-500 
+      class="border-b-2 border-gray-500 focus:border-blue-500 bg-transparent
             outline-none transition-all duration-500 w-full p-1 focus:text-blue-500
              "
         :class="{'text-blue-500':text!==''}"

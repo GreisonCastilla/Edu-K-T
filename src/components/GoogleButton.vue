@@ -2,7 +2,7 @@
     <div class="px-6 sm:px-0 max-w-sm">
             <button
               type="button"
-              class="text-white w-full  bg-gray-700 hover:bg-[#4285F4]/90 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center justify-between mr-2 mb-2"
+              class="text-white w-full  bg-gray-500 hover:bg-[#4285F4]/90 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center justify-between mr-2 mb-2"
             ><svg
                 class="mr-2 -ml-1 w-4 h-4"
                 aria-hidden="true"

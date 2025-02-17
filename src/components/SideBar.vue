@@ -16,7 +16,7 @@
      :class="{'absolute translate-x-0 duration-500 ease-in-out z-20':showSideBar}"
      >
 
-        <SesionInfo class="lg:hidden flex"></SesionInfo>
+        <SesionInfo class="lg:hidden flex"/>
 
         <div class="flex p-3 justify-center bg-gray-500 ">
             <p class="text-white text-lg "><b>Grados</b></p>

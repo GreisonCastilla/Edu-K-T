@@ -25,7 +25,7 @@
       
       <div class="card-title select-none">
         <p class="text-base"><b>{{course.name}}</b></p>
-        <p class="text-sm">{{course.teacher}}</p>
+        <p class="text-sm">{{course.director.name}}</p>
       </div>
 
       <div class="activities min-h-16 mt-2 ml-2 bg-white grow z-11">
@@ -52,7 +52,7 @@
       </div>
 
       <div class="prom-grade h-6 justify-items-end ">
-        <ShowGrade :average="course.average"></ShowGrade>
+        <ShowGrade :average="course.average"/>
       </div>
 
     </div>

@@ -2,14 +2,20 @@
   {
     "name": "7° - Septimo",
     "state": true,
+    "average":3.66,
     "director": {
       "name": "Julio Salcedo",
-      "tel": 3207152725
+      "tel": 3207152725,
+      "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
     },
     "courses": [
       {
         "name": "Castellano",
-        "teacher": "Julian Casablanca",
+        "director": {
+          "name": "Julian Casablanca",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
+        },
         "activities": [
           "esta es una actividad lo sufientemente larga como para que no aparezca completamente en el div",
           "activity 2",
@@ -17,11 +23,15 @@
           "activity 2",
           "activity 2"
         ],
-        "average":null
+        "average": null
       },
       {
         "name": "Educación física",
-        "teacher": "Antonio Madero",
+        "director": {
+          "name": "Antonio Madero",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
+        },
         "activities": [
           "activity 1",
           "activity 2"
@@ -30,7 +40,11 @@
       },
       {
         "name": "Sociales",
-        "teacher": "Marlene Torres",
+        "director": {
+          "name": "Marlene Torres",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
+        },
         "activities": [
           "activity 1"
         ],
@@ -38,26 +52,46 @@
       },
       {
         "name": "Física",
-        "teacher": "Oscar Montero",
+        "director": {
+          "name": "Oscar Montero",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
+        },
         "activities": [],
         "average": 4.3
       },
       {
         "name": "Quimica",
-        "teacher": "Oscar Montero",
+        "director": {
+          "name": "Oscar Montero",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
+        },
         "activities": [],
         "average": 4.1
       },
       {
         "name": "Metalurgia",
-        "teacher": "Arturo Rebolledo",
-        "activities": ["Angulo a 45°"],
+        "director": {
+          "name": "Arturo Rebolledo",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
+        },
+        "activities": [
+          "Angulo a 45°"
+        ],
         "average": 4.1
       },
       {
         "name": "Corte y confección",
-        "teacher": "Myriam Centella",
-        "activities": ["activity 1"],
+        "director": {
+          "name": "Myriam Centella",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
+        },
+        "activities": [
+          "activity 1"
+        ],
         "average": 3.9
       }
     ]
@@ -65,38 +99,60 @@
   {
     "name": "6° - Sexto",
     "state": false,
+    "average":3.82,
     "director": {
-      "name": "Mariano Ochoa",
-      "tel": 3014649618
+      "name": "Rosario Belanova",
+      "tel": 3142332435,
+      "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
     },
     "courses": [
       {
         "name": "Castellano",
-        "teacher": "Julian Casablanca",
+        "director": {
+          "name": "Julian Casablanca",
+          "tel": 3202332435,
+          "schedule": "Lunes a Viernes 8:00Am a 10:00Am"
+        },
         "activities": [],
         "average": 4.2
       },
       {
         "name": "Educación física",
-        "teacher": "Antonio Madero",
+        "director": {
+          "name": "Antonio Madero",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 8:00Am a 10:00Am"
+        },
         "activities": [],
         "average": 3.5
       },
       {
         "name": "Sociales",
-        "teacher": "Marlene Torres",
+        "director": {
+          "name": "Marlene Torres",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 8:00Am a 10:00Am"
+        },
         "activities": [],
         "average": 3.0
       },
       {
         "name": "Física",
-        "teacher": "Oscar Montero",
+        "director": {
+          "name": "Oscar Montero",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 8:00Am a 10:00Am"
+        },
         "activities": [],
         "average": 4.3
       },
       {
         "name": "Quimica",
-        "teacher": "Oscar Montero",
+        "director": {
+          "name": "Oscar Montero",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 8:00Am a 10:00Am"
+        },
         "activities": [],
         "average": 4.1
       }
@@ -104,39 +160,61 @@
   },
   {
     "name": "5° - Quinto",
+    "average":3.82,
     "state": false,
     "director": {
       "name": "Rosario Belanova",
-      "tel": 3142332435
+      "tel": 3142332435,
+      "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
     },
     "courses": [
       {
         "name": "Castellano",
-        "teacher": "Julian Casablanca",
+        "director": {
+          "name": "Julian Casablanca",
+          "tel": 3202332435,
+          "schedule": "Lunes a Viernes 8:00Am a 10:00Am"
+        },
         "activities": [],
         "average": 4.2
       },
       {
         "name": "Educación física",
-        "teacher": "Antonio Madero",
+        "director": {
+          "name": "Antonio Madero",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 8:00Am a 10:00Am"
+        },
         "activities": [],
         "average": 3.5
       },
       {
         "name": "Sociales",
-        "teacher": "Marlene Torres",
+        "director": {
+          "name": "Marlene Torres",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 8:00Am a 10:00Am"
+        },
         "activities": [],
         "average": 3.0
       },
       {
         "name": "Física",
-        "teacher": "Oscar Montero",
+        "director": {
+          "name": "Oscar Montero",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 8:00Am a 10:00Am"
+        },
         "activities": [],
         "average": 4.3
       },
       {
         "name": "Quimica",
-        "teacher": "Oscar Montero",
+        "director": {
+          "name": "Oscar Montero",
+          "tel": 3142332435,
+          "schedule": "Lunes a Viernes 8:00Am a 10:00Am"
+        },
         "activities": [],
         "average": 4.1
       }

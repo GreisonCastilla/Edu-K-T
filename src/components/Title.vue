@@ -18,7 +18,9 @@
         <p class="text-base">
             <b>Número telefónico: </b> {{ grade.director.tel }}
         </p>
-
+        <p class="text-base">
+            <b>Horario de Atención: </b> {{ grade.director.schedule }}
+        </p>
     </div>
 </template>
 

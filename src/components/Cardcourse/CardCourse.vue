@@ -7,11 +7,11 @@
   })
 
   function redirecction(name, activity){
-    router.push({name:'subjectStudent', params:{subject:name, activity: activity}})
+    router.push({name:'subjectStudent', params:{subject:name}})
   }
 
   function redirecctionActivity(name, activity){
-    router.push({name:'subjectStudent', params:{subject:name, activity: activity}})
+    router.push({name:'SubjectDetailView', params:{subject:name, activity: activity}})
   }
 </script>
 

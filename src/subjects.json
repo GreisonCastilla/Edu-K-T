@@ -11,19 +11,19 @@
           "name": "Actividad 1 - castellano",
           "dueDate":"02-03-2024",
           "average": null,
-          "Description": "Esta es la actividad 1 en la cual se debe hacer tal cosa"
+          "description": "Esta es la actividad 1 en la cual se debe hacer tal cosa"
         },
         {
           "name": "Actividad 2",
           "dueDate":"10-02-2024",
           "average": 4.2,
-          "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+          "description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
         },
         {
           "name": "Actividad 3",
           "dueDate":"28-01-2024",
           "average": 2.2,
-          "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+          "description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
         }
       ],
       "average": null
@@ -40,19 +40,19 @@
           "name": "Actividad 1 - Educacion fisica",
           "dueDate":"10-03-2024",
           "average": 3.3,
-          "Description": "Esta es la actividad 1 en la cual se debe hacer tal cosa"
+          "description": "Esta es la actividad 1 en la cual se debe hacer tal cosa"
         },
         {
           "name": "Actividad 2",
           "dueDate":"10-02-2024",
           "average": 4.2,
-          "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+          "description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
         },
         {
           "name": "Actividad 3",
           "dueDate":"28-01-2024",
           "average": 2.2,
-          "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+          "description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
         }
       ],
       "average": 3.5
@@ -69,13 +69,13 @@
           "name": "Actividad 1 - sociales",
           "dueDate":"10-03-2024",
           "average": 3.3,
-          "Description": "Esta es la actividad 1 en la cual se debe hacer tal cosa"
+          "description": "Esta es la actividad 1 en la cual se debe hacer tal cosa"
         },
         {
           "name": "Actividad 2",
           "dueDate":"10-02-2024",
           "average": 4.2,
-          "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+          "description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
         }
       ],
       "average": 2.3
@@ -91,13 +91,13 @@
         "name": "Actividad 1 - física",
         "dueDate":"10-03-2024",
         "average": 3.3,
-        "Description": "Esta es la actividad 1 en la cual se debe hacer tal cosa"
+        "description": "Esta es la actividad 1 en la cual se debe hacer tal cosa"
       },
       {
         "name": "Actividad 2",
         "dueDate":"10-02-2024",
         "average": 4.2,
-        "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+        "description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
       }],
       "average": 4.3
     },
@@ -123,7 +123,7 @@
           "name": "Angulo 45°",
           "dueDate":"10-02-2024",
           "average": 4.2,
-          "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+          "description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
         }
       ],
       "average": 4.1
@@ -140,7 +140,7 @@
           "name": "Corte ingles",
           "dueDate":"10-02-2024",
           "average": 4.2,
-          "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+          "description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
         }
       ],
       "average": 3.9

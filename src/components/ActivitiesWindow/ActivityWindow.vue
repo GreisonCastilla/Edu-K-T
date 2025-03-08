@@ -8,7 +8,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr v-for="activity in data" :key="activity" @click="redirection" class="cursor-pointer hover:bg-gray-200 p-2">
+            <tr v-for="activity in data" :key="activity" @click="redirection(activity.name)" class="cursor-pointer hover:bg-gray-200 transition duration-200 ease-linear p-2">
                 <td class="px-3 py-3">{{activity.name}}</td>
                 <td class="px-3 py-3">{{activity.dueDate}}</td>
                 <td class="px-3 py-3">
@@ -21,9 +21,14 @@
 
 <script setup>
     import ShowGrade from '../Cardcourse/ShowGrade.vue';
+    import { router } from '../../router/router';
+    import { useRoute } from "vue-router";
 
-    function redirection(){
-        alert("si que si")
+    let route = useRoute()
+    let title = route.params.subject
+
+    function redirection(activity){
+        router.push({name:'SubjectDetailView', params:{subject:title, activity: activity}})
     }
 
     defineProps({

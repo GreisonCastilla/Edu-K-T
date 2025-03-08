@@ -1,12 +1,12 @@
 <script setup>
-    import { showSideBar } from '../composables/useSideBar';
-    import SesionInfo from './Sesion/SesionInfo.vue';
+    import { showSideBar } from '../../composables/useSideBar';
+    import SesionInfo from '../Sesion/SesionInfo.vue';
 
 </script>
 
 <template>
 
-    <div class="min-h-24 z-10 bg-slate-600 flex items-center p-5">
+    <div class="max-h-24 z-10 bg-slate-600 flex items-center p-5">
 
         <div class="flex grow">
 

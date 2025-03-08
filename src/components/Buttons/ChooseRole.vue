@@ -14,10 +14,6 @@
 
 <script setup>
 
-    import {role} from '../composables/useRole' 
+    import { role } from '../../Composables/useRole';
 
 </script>
-
-<style lang="scss" scoped>
-
-</style>

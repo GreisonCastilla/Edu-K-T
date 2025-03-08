@@ -5,7 +5,7 @@ let message = "Bueno: Promedio >= 4.0\nModerado: 4.0 < Promedio > 3.0\nMalo: Pro
 </script>
 
 <template>
-    <div class="flex flex-wrap space-y-3 space-x-0 md:space-x-4 md:space-y-0  select-none">
+    <div class="flex flex-wrap space-y-2 space-x-0 md:space-x-4 md:space-y-0  select-none">
 
         <div class="flex space-x-1 align-middle">
             <InfoIcon :message="message"/>

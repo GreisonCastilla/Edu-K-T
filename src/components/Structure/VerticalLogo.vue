@@ -30,5 +30,5 @@
 </template>
 
 <script setup>
-  import role from "./ChooseRole.vue";
+  import { role } from '../../Composables/useRole';
 </script>

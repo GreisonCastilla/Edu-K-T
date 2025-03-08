@@ -1,17 +1,17 @@
 
 <script setup>
-import InputText from "../components/InputText.vue";
-import NormalButton from "../components/NormalButton.vue";
-import GoogleButton from "../components/GoogleButton.vue";
-import ChooseRole from "../components/ChooseRole.vue";
-import VerticalLogo from "../components/VerticalLogo.vue";
-import { role } from "../composables/useRole";
-import { router } from "../router/router";
+  import InputText from "../components/InputText.vue";
+  import NormalButton from "../components/Buttons/NormalButton.vue";
+  import GoogleButton from "../components/Buttons/GoogleButton.vue";
+  import ChooseRole from "../components/Buttons/ChooseRole.vue";
+  import VerticalLogo from "../components/Structure/VerticalLogo.vue";
+  import { role } from "../Composables/useRole";
+  import { router } from "../router/router";
 
-function login() {
-  const randomId = Math.floor(Math.random() * 100); // Genera un ID aleatorio
-  router.replace({name:'studentMain', params:{id: randomId}}); 
-}
+  function login() {
+    const randomId = Math.floor(Math.random() * 100); // Genera un ID aleatorio
+    router.replace({name:'studentMain', params:{id: randomId}}); 
+  }
 </script>
 
 

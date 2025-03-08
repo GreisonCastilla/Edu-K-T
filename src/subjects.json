@@ -1,0 +1,148 @@
+[
+    {
+      "name": "Castellano",
+      "director": {
+        "name": "Julian Casablanca",
+        "tel": 3142332435,
+        "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
+      },
+      "activities": [
+        {
+          "name": "Actividad 1 - castellano",
+          "dueDate":"02-03-2024",
+          "average": null,
+          "Description": "Esta es la actividad 1 en la cual se debe hacer tal cosa"
+        },
+        {
+          "name": "Actividad 2",
+          "dueDate":"10-02-2024",
+          "average": 4.2,
+          "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+        },
+        {
+          "name": "Actividad 3",
+          "dueDate":"28-01-2024",
+          "average": 2.2,
+          "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+        }
+      ],
+      "average": null
+    },
+    {
+      "name": "Educación física",
+      "director": {
+        "name": "Antonio Madero",
+        "tel": 3142332435,
+        "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
+      },
+      "activities": [
+        {
+          "name": "Actividad 1 - Educacion fisica",
+          "dueDate":"10-03-2024",
+          "average": 3.3,
+          "Description": "Esta es la actividad 1 en la cual se debe hacer tal cosa"
+        },
+        {
+          "name": "Actividad 2",
+          "dueDate":"10-02-2024",
+          "average": 4.2,
+          "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+        },
+        {
+          "name": "Actividad 3",
+          "dueDate":"28-01-2024",
+          "average": 2.2,
+          "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+        }
+      ],
+      "average": 3.5
+    },
+    {
+      "name": "Sociales",
+      "director": {
+        "name": "Marlene Torres",
+        "tel": 3142332435,
+        "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
+      },
+      "activities": [
+        {
+          "name": "Actividad 1 - sociales",
+          "dueDate":"10-03-2024",
+          "average": 3.3,
+          "Description": "Esta es la actividad 1 en la cual se debe hacer tal cosa"
+        },
+        {
+          "name": "Actividad 2",
+          "dueDate":"10-02-2024",
+          "average": 4.2,
+          "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+        }
+      ],
+      "average": 2.3
+    },
+    {
+      "name": "Física",
+      "director": {
+        "name": "Oscar Montero",
+        "tel": 3142332435,
+        "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
+      },
+      "activities": [{
+        "name": "Actividad 1 - física",
+        "dueDate":"10-03-2024",
+        "average": 3.3,
+        "Description": "Esta es la actividad 1 en la cual se debe hacer tal cosa"
+      },
+      {
+        "name": "Actividad 2",
+        "dueDate":"10-02-2024",
+        "average": 4.2,
+        "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+      }],
+      "average": 4.3
+    },
+    {
+      "name": "Quimica",
+      "director": {
+        "name": "Oscar Montero",
+        "tel": 3142332435,
+        "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
+      },
+      "activities": [],
+      "average": 4.1
+    },
+    {
+      "name": "Metalurgia",
+      "director": {
+        "name": "Arturo Rebolledo",
+        "tel": 3142332435,
+        "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
+      },
+      "activities": [
+        {
+          "name": "Angulo 45°",
+          "dueDate":"10-02-2024",
+          "average": 4.2,
+          "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+        }
+      ],
+      "average": 4.1
+    },
+    {
+      "name": "Corte y confección",
+      "director": {
+        "name": "Myriam Centella",
+        "tel": 3142332435,
+        "schedule": "Lunes a Viernes 2:00pm a 4:00pm"
+      },
+      "activities": [
+        {
+          "name": "Corte ingles",
+          "dueDate":"10-02-2024",
+          "average": 4.2,
+          "Description": "Esta es la actividad 2 en la cual se debe hacer tal cosa"
+        }
+      ],
+      "average": 3.9
+    }
+  ]

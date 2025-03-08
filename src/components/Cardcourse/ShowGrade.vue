@@ -1,7 +1,7 @@
 <script setup>
 
     defineProps({
-    average: Number,
+        average: Object,
     })
 
 </script>

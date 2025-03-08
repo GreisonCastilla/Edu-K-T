@@ -1,9 +1,9 @@
 <script setup>
-    import { showSideBar } from '../composables/useSideBar';
-    import SesionInfo from './Sesion/SesionInfo.vue';
+    import { showSideBar } from '../../composables/useSideBar';
+    import SesionInfo from '../Sesion/SesionInfo.vue';
 
-    import { actualGrade } from '../composables/useGrades';
-    import data from "../courses.json"
+    import { selected } from '../../composables/useSelected';
+    import data from "../../courses.json"
 
 </script>
 
@@ -28,8 +28,8 @@
             
                 <div class="p-2 flex text-white text-sm justify-center hover:bg-white hover:text-gray-700 transition 
                     duration-500 ease-in-out cursor-pointer min-w-full"
-                    :class="{' bg-white text-gray-700 ':actualGrade===option-1} " @click="actualGrade=option-1">
-                    <b :class="{'text-gray-700':actualGrade===option-1}">{{ data[option-1].name }}</b>
+                    :class="{' bg-white text-gray-700 ':selected===option-1} " @click="selected=option-1">
+                    <b :class="{'text-gray-700':selected===option-1}">{{ data[option-1].name }}</b>
                 </div>
             
             </div>

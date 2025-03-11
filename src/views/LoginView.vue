@@ -9,8 +9,7 @@
   import { router } from "../router/router";
 
   function login() {
-    const randomId = Math.floor(Math.random() * 100); // Genera un ID aleatorio
-    router.replace({name:'studentMain', params:{id: randomId}}); 
+    router.replace({name:'studentMain'}); 
   }
 </script>
 

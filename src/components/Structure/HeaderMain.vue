@@ -1,5 +1,5 @@
 <script setup>
-    import Title from './Title.vue';
+    import Title from '../Structure/Title.vue'
     import Indicator from '../Indicator.vue';
     import ShowGrade from '../Cardcourse/ShowGrade.vue';
 
